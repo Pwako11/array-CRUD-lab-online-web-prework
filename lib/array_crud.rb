@@ -16,7 +16,7 @@ end
 
 def add_element_to_start_of_array(array, element)
     array = ["cookies", "chips", "candy", "ice cream"]
-    element = "pie" 
+    element = "wow" 
     array.unshift element
     puts array.inspect
   
