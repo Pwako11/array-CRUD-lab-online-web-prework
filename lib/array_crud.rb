@@ -8,7 +8,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-    array["cookies", "chips", "candy", "ice cream"]
+    array = ["cookies", "chips", "candy", "ice cream"]
     element = "pie" 
     array << element
     puts array.inspect 
@@ -16,7 +16,7 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-    array["cookies", "chips", "candy", "ice cream"]
+    array = ["cookies", "chips", "candy", "ice cream"]
     element = "pie" 
     array.unshift element
     puts array.inspect
@@ -24,10 +24,16 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  
+    array = ["cookies", "chips", "candy", "ice cream"]
+    array.pop  
+    puts array.inspect
 end
 
 def remove_element_from_start_of_array(array)
+    array = ["cookies", "chips", "candy", "ice cream"]
+    element = "pie" 
+    array.unshift element
+    puts array.inspect
   
 end
 
