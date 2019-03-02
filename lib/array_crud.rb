@@ -46,7 +46,7 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-    array = ["cookies", "chips", "candy", "ice cream", "arrays!'"]
+    array = ["cookies", "chips", "candy", "ice cream", "arrays!"]
     array.last 
     
 end
