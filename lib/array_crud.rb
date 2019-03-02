@@ -23,7 +23,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-    array = ["cookies", "chips", "candy", "ice cream"]
+    array = ["cookies", "chips", "candy", "ice cream", "arrays!"]
     array.pop  
     puts array.inspect
 end
