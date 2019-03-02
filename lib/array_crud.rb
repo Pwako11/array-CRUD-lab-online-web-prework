@@ -36,8 +36,8 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-    array = ["cookies", "chips", "candy", "ice cream"]
-    index_number = 3 
+    array = ["cookies", "chips", "am", "ice cream"]
+    index_number = 2 
     array[index_number]
   
 end
