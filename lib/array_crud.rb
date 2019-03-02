@@ -31,13 +31,13 @@ end
 
 def remove_element_from_start_of_array(array)
     array = ["cookies", "chips", "candy", "ice cream"]
-    element = "pie" 
-    array.unshift element
+    array.shift 
     puts array.inspect
   
 end
 
 def retrieve_element_from_index(array, index_number)
+  
   
 end
 
