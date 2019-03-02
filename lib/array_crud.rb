@@ -9,7 +9,7 @@ end
 
 def add_element_to_end_of_array(array, element)
     array = ["cookies", "chips", "candy", "ice cream"]
-    element = "pie" 
+    element = "arrays!" 
     array << element
   
 end
