@@ -40,14 +40,17 @@ def retrieve_element_from_index(array, index_number)
     array = ["cookies", "chips", "candy", "ice cream"]
     index_number = 3 
     array[index_number]
-    puts array.inspect
   
 end
 
 def retrieve_first_element_from_array(array)
-  
+    array = ["cookies", "chips", "candy", "ice cream"]
+    array.first 
+    puts array.inspect
 end
 
 def retrieve_last_element_from_array(array)
-  
+    array = ["cookies", "chips", "candy", "ice cream"]
+    array.last 
+    puts array.inspect
 end
