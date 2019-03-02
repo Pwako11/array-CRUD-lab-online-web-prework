@@ -39,7 +39,7 @@ end
 def retrieve_element_from_index(array, index_number)
     array = ["cookies", "chips", "candy", "ice cream"]
     index_number = 3 
-    array(index_number)
+    array[index_number]
     puts array.inspect
   
 end
